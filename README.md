@@ -1,2 +1,1 @@
-# Johanna-beta
-# Johanna-Website
+Finally finished this project! It was a wonderful time to build this for my friend, and there are still some tweaks to make and more to add once I have the information, but as of now I'm happy to show this off!
