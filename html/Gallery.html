@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>Honeybee Charcuterie Company</title>
+</head>
+<body id="bodyGal">
+  <header id="navBar">
+    <div id="navName">
+      <h1 id="honeyh1">Honeybee Charcuterie</h1>
+    </div>
+    <div id="navLogo">
+      <button class="main-logo" id="bee">
+        <i class="fa-thin fa-bee"></i>
+      </button>   
+    </div>
+    <div id="navInfo">
+      <a onClick="charGalleryClick"href="/index.html" class="navA">Home</a>
+      <a href="/html/Menu.html" class="navA">Menu</a>
+      <a href="/html/Gallery.html" class="navA">Gallery</a>
+      <a href="/html/About.html" class="navA">About</a>
+      <a href="/html/Contact.html" class="navA">Contact</a>
+        <nav>
+          <div class="navbar">
+            <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+              <div class="logo">
+                <h1></h1>
+              </div>
+              <div class="menu-items">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/html/Menu.html">Menu</a></li>
+                <li><a href="/html/Gallery.html">Gallery</a></li>
+                <li><a href="/html/About.html">About</a></li>
+                <li><a href="/html/Contact.html">Contact</a></li>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+  </header>    
+<!-- Slideshow container -->
+  <div id="imageGallery">
+    <div class="slideshow-container" id="slideshow"> 
+      <button id="close-button">X</button>
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/images/small_Breakfast_Board/brek1.jpeg" class="slideImg" id="slide1">
+        <div class="slideText"></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/images/small_Breakfast_Board/brek1.jpeg" class="slideImg" id="slide2">
+        <div class="slideText"></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/images/small_Breakfast_Board/brek1.jpeg" class="slideImg" id="slide3">
+        <div class="slideText"></div>
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div id="dots" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+  </div>    
+  <div class="grid" id="mainGalDiv">
+    <div id="mainGal">     
+      <a for="pic-1" id="breakfast-board" class="grid-item"><img class="galImg" src="/images/Char1.jpeg"> Breakfast Board </a>
+      <a for="pic-2" id="classic-board" class="grid-item"><img class="galImg" src="/images/Char2.jpeg"> Classic Board </a>
+      <a for="pic-3" id="pnw-board" class="grid-item"><img class="galImg" src="/images/Char3.jpeg"> PNW Board</a>
+      <a for="pic-4" id="sweetGallery" class="grid-item"><img class="galImg" src="/images/Char4.jpeg"> TBA</a>
+      <a for="pic-5" id="pickleGallery" class="grid-item"><img class="galImg" src="/images/Char5.jpeg"> TBA</a>
+      <a for="pic-6" id="honeyGallery" class="grid-item"><img class="galImg" src="/images/Char6.jpeg"> TBA </a>
+      <a for="pic-7" id="nutGallery" class="grid-item"><img class="galImg" src="/images/Char7.jpeg"> TBA </a>
+      <a for="pic-8" id="loveGallery"  class="grid-item"><img class="galImg" src="/images/Char8.jpeg"> TBA </a>
+    </div>      
+    <script src="/script.js"></script>
+  </div>
+</body>
+</html>

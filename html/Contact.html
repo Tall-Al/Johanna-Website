@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/18372e844a.js" 
+    crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" 
+     rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <script src='/script.js'></script>
+    <title>Honeybee Charcuterie</title>
+</head>
+<body>
+    <header id="navBar">
+        <div id="navName">
+          <h1 id="honeyh1">HoneyBee Charcuterie</h1>
+        </div>
+        <div id="navLogo">
+            <button class="main-logo" id="bee">
+                <i class="fa-thin fa-bee"></i>
+              </button>   
+        </div>
+        <div id="navInfo">
+          <a href="/index.html" class="navA">Home</a>
+          <a href="/html/Menu.html" class="navA">Menu</a>
+          <a href="/html/Gallery.html" class="navA">Gallery</a>
+          <a href="/html/About.html" class="navA">About</a>
+          <a href="/html/Contact.html" class="navA">Contact</a>
+          <nav>
+            <div class="navbar">
+              <div class="container nav-container">
+                  <input class="checkbox" type="checkbox" name="" id="" />
+                  <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </div>  
+                <div class="logo">
+                  <h1></h1>
+                </div>
+                <div class="menu-items">
+                 <li><a href="/index.html">Home</a></li>
+                 <li><a href="/html/Menu.html">Menu</a></li>
+                 <li><a href="/html/Gallery.html">Gallery</a></li>
+                 <li><a href="/html/About.html">About</a></li>
+                 <li><a href="/html/Contact.html">Contact</a></li>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <!---------------------------------------------------------------->
+    <link href="contact-form.css" rel="stylesheet">
+
+    <div class="fcf-body">
+    
+        <div id="fcf-form">
+        <h3 class="fcf-h3">Contact us</h3>
+    
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>
+        </form>
+        </div>
+    
+    </div>
+</body>
+</html>
