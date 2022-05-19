@@ -95,7 +95,7 @@ h3 {
 
     #honeyh1 {
 
-        margin: 20% 0 5% 0;
+        margin: 17% 0 5% 0;
         font-weight: 200;
         font-size: 1.2rem;
         white-space: nowrap;
@@ -804,9 +804,8 @@ input[type="checkbox"]:checked ~ .grid { opacity: .125; }
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 25%;
+    top: 50%;
     width: auto;
-    margin-top: 20%;
     padding: 16px; 
     color: white;
     font-weight: bold;
