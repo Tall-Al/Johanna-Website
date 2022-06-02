@@ -65,6 +65,10 @@ h3 {
     font-size: 1.4vw
 }
 
+.navA:hover {
+  text-decoration: underline;
+}
+
  /* End Nav Bar */
 
 @media screen and (max-width: 600px) { /********** Mobile *************/
@@ -95,7 +99,7 @@ h3 {
 
     #honeyh1 {
 
-        margin: 17% 0 5% 0;
+        margin: 17% 0% 5% 3%;
         font-weight: 200;
         font-size: 1.2rem;
         white-space: nowrap;
@@ -123,7 +127,7 @@ h3 {
 
     .navbar {
         width: 100%;
-        box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+        box-shadow: white;
       }
       
       .nav-container {
@@ -162,8 +166,8 @@ h3 {
       .nav-container .checkbox {
         position: absolute;
         display: block;
-        height: 32px;
-        width: 32px;
+        height: 34px;
+        width: 34px;
         top: 20px;
         right: 20px;
         margin-left: 20%;
@@ -281,8 +285,8 @@ h3 {
 
     #introH4 {
         justify-content: center;
-        text-align: center;
-        margin: 2% 10% 2% 10%;
+        /* text-align: left;
+        margin: 2% 10% 2% 10%; */
         width: 40vw;
         color: #371d10;
         font-size: 1.6rem;
@@ -339,7 +343,7 @@ h3 {
 /************** End Mobile ******************/
 @media screen and (min-width: 601px) { /********** Desktop and tablet ***********/
     #main-Image-Div {
-        background-image:url('/images/mainPageImg.jpeg');
+        background-image:url('/images/mainPageImg.jpeg'); /* Request Image with more presence*/
         background-size:100% 100%;
     }
     /* Nav Bar Desktop */
@@ -351,7 +355,7 @@ h3 {
         background-color: white;
         height: 7%;
         width: 100%;
-        text-decoration: none;
+        /* text-decoration: dashed; */
     }
 
     #navInfo{
@@ -379,17 +383,15 @@ h3 {
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 3rem;
      }
     
      h3 {
-         font-size: 15px;
+         font-size: 2rem;
      }
 
-    #navA {
-        font-size: 5rem;
-
-    }
+    
+    
 
     #bee {
         margin-top: 3%;
@@ -413,7 +415,7 @@ h3 {
     #introH4 {
 
         position: relative;
-        padding: 2%;
+        padding: 2% 2% 0 0;
         flex-wrap: wrap;
         justify-content: center;
         width: 40%;
@@ -571,6 +573,7 @@ h3 {
       --l: calc(50vw/(var(--n-rows) + 3));
       --hl: calc(.5*var(--l));
     --ri: calc(.5*1.73205*var(--l));
+    zoom: 1.5;
     box-sizing: border-box;
     display: grid;
     place-content: center;
@@ -799,7 +802,7 @@ input[type="checkbox"]:checked ~ .grid { opacity: .125; }
       bottom: 0;
       left: 0;
   }
-  
+
   /* Hide the images by default */
   .prev, .next {
     cursor: pointer;
@@ -899,13 +902,39 @@ input[type="checkbox"]:checked ~ .grid { opacity: .125; }
 
 /******* End Gallery *******/
 
+/******* About.html *******/
+
+.aboutDiv {
+  margin: 5%;
+  
+}
+
+.aboutH2 {
+  margin-bottom: 10%;
+}
+
+/* .aboutP {
+} */
+
+/******* End About *******/
+
 /***** Contact.html *****/
 
 #fcf-form {
     display:block;
 }
 
+.fcf-wrap {
+  max-width: 2000px;
+  max-height: 2500px;
+  justify-content: center;
+  text-align: center;
+}
+
 .fcf-body {
+  justify-content: center;
+  text-align: center;
+  
     margin: 0;
     font-family: -apple-system, Arial, sans-serif;
     font-size: 1rem;
@@ -918,7 +947,8 @@ input[type="checkbox"]:checked ~ .grid { opacity: .125; }
     padding-bottom: 10px;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .fcf-form-group {
